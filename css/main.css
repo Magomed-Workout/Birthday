@@ -129,6 +129,13 @@ body {
 .card, .card-page {
   width: 350px;
   height: 500px;
+}  
+
+@media (max-width: 1000px) {
+  .card, .card-page {
+    width: 400px;
+    height: 600px;
+  }
 }
 
 @media (max-width: 767px) {
@@ -351,6 +358,18 @@ p {
   padding-left: 10px;
 }
 
+@media (max-width: 1000px) {
+  body {background-position-x: -350px;}
+
+  .card-page__title {
+    font-size: 26px;
+  }
+
+  p {
+    font-size: 22px;
+  }
+}
+
 @media (max-width: 767px) {
   .card-page__title{
     font-size: 16px;
@@ -358,8 +377,4 @@ p {
   p {
     font-size: 14px;
   }
-}
-
-@media (max-width: 479px) {
-
 }
