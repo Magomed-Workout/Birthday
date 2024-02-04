@@ -139,6 +139,9 @@ body {
 }
 
 @media (max-width: 479px) {
+
+  body {background-position-x: -330px;}
+
   .card, .card-page {
     width: 200px;
     height: 300px;
