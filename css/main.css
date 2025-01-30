@@ -3,8 +3,9 @@
 }
 
 body {
+  background-position-x: center;
   background-color: #928A97;
-  background-image: url("../img/bg.jpg");
+  background-image: url("../img/bg.png");
   background-repeat: no-repeat;
   background-size: cover;
   height: 100vh;
@@ -52,8 +53,8 @@ body {
 
 @media (max-width: 479px) {
   .card {
-    left: calc(50% - 75px);
-    top: calc(50% - 107px);
+    left: calc(45% - 75px);
+    top: calc(46% - 107px);
   }
 }
 
@@ -147,7 +148,7 @@ body {
 
 @media (max-width: 479px) {
 
-  body {background-position-x: -330px;}
+  body {background-image: url("../img/bg-tel.png");}
 
   .card, .card-page {
     width: 210px;
@@ -359,7 +360,6 @@ p {
 }
 
 @media (max-width: 1000px) {
-  body {background-position-x: -350px;}
 
   .card-page__title {
     font-size: 26px;
@@ -373,10 +373,10 @@ p {
 @media (max-width: 767px) {
   .card-page__title{
     font-size: 16px;
-    padding-top: 15px;
+    padding-top: 0;
     margin-bottom: 0px;
   }
   p {
-    font-size: 14px;
+    font-size: 12.8px;
   }
 }
