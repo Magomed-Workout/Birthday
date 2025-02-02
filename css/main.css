@@ -56,7 +56,7 @@ body {
 @media (max-width: 479px) {
   .card {
     left: calc(45% - 75px);
-    top: calc(48% - 107px);
+    top: calc(50% - 107px);
   }
 }
 
