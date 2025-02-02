@@ -45,11 +45,11 @@ body {
 }
 
 @media (max-width: 767px) {
-   body{background-position-y: 10%;}
+   body{background-position-y: 34%;}
   
   .card {
     left: calc(50% - 115px);
-    top: calc(54% - 164.5px);
+    top: calc(50% - 164.5px);
   }
 }
 
