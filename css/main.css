@@ -150,7 +150,8 @@ body {
 
 @media (max-width: 479px) {
 
-
+  body {background-image: url("../img/bg-tel.png");}
+  
   .card, .card-page {
     width: 210px;
     height: 310px;
