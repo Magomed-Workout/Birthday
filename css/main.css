@@ -45,6 +45,8 @@ body {
 }
 
 @media (max-width: 767px) {
+   body{background-position-y: 10%;}
+  
   .card {
     left: calc(50% - 115px);
     top: calc(50% - 164.5px);
@@ -52,8 +54,6 @@ body {
 }
 
 @media (max-width: 479px) {
-  body{background-position-y: 10%;}
-  
   .card {
     left: calc(45% - 75px);
     top: calc(48% - 107px);
