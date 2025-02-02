@@ -52,7 +52,7 @@ body {
 }
 
 @media (max-width: 479px) {
-  body{background-position-y: -15px;}
+  body{background-position-y: 10%;}
   
   .card {
     left: calc(45% - 75px);
