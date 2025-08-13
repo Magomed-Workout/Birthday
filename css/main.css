@@ -156,6 +156,11 @@ body {
     width: 210px;
     height: 310px;
   }
+
+  .code {
+    width: 70px;
+    height: 70px;
+  }
 }
 
 .card-page {
@@ -382,5 +387,6 @@ p {
     font-size: 12.8px;
   }
 }
+
 
 
